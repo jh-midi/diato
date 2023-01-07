@@ -2,13 +2,15 @@
 diatonic accordion melodeon emulation on pc keyboard
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
 * you can look at portmidi-sml2 for creating virtual port on Mac Linux for use with Daw and scores writers ...
-* polyc virt.sml is what you need. 
+* polyc virt.sml is what you need.
 * suggestions are welcome.
 
 Lisez tout vous gagnerez du temps :-)
 
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
 Donc il vous faut installer Chrome, Brave ... ou Chromium
+* notez que la version snap de Brave ne fonctionnent pas 
+* il faut une installation complète native
 
 sudo apt install chromium
 
