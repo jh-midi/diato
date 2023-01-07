@@ -45,3 +45,4 @@ et après pour passer en qwerty :
 maintenir la touche windows (super)  appuyée et actionner la barre espace.
 Et refaire la même opération pour revenir en azerty.
 
+Sous Windows vous pouvez faire la même chose mais différemment.
