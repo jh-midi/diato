@@ -1,7 +1,9 @@
 # diato
 diatonic accordion melodeon emulation on pc keyboard
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
-suggestions are welcome.
+* you can look at portmidi-sml2 for creating virtual port on Mac Linux for use with Daw and scores writers ...
+* polyc virt.sml is what you need. 
+* suggestions are welcome.
 
 Lisez tout vous gagnerez du temps :-)
 
