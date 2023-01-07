@@ -14,12 +14,13 @@ Pour avoir un son d'accordéon rapidement installer fluidsynth.
 exemple  pour debian et ubuntu :
 sudo apt install fluidsynth
 
-je fourni ici la soundfont gaillard.sf2 pour tester.
-Il y en a d'autres sur le site http://jmi.ovh/DiatonicTab .
+j'utilise ici la soundfont Gaillard.sf2 pour tester.
+Vous la trouverez sur sur le site http://jmi.ovh/DiatonicTab .
+Il y en a d'autres ...
 
 une fois fluidsynth installé taper au terminal :
 
-fluidsynth gaillard.sf2 -m alsa_seq -p diato
+fluidsynth Gaillard.sf2 -m alsa_seq -p diato
 
 ouvrir le fichier index.html avec le navigateur chromium.
 
