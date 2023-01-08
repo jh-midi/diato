@@ -7,7 +7,7 @@ for creating virtual port on Mac Linux for use with Daw and scores writers ...
 * suggestions are welcome.
 
 Lisez tout vous gagnerez du temps :-)
-
+##Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
 Donc il vous faut installer Chrome, Brave ... ou Chromium
 * notez que la version snap de Brave ne fonctionnent pas 
@@ -51,3 +51,4 @@ maintenir la touche windows (super)  appuyée et actionner la barre espace.
 Et refaire la même opération pour revenir en azerty.
 
 Sous Windows vous pouvez faire la même chose mais différemment.
+##Windows
