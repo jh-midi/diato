@@ -181,11 +181,17 @@ function onMIDISuccess( midiAccess ) {
 
 function onMIDIFailure(msg) {
   console.log( "Failed to get MIDI access - " + msg );
+  alert( "Failed to get MIDI access - " + msg );
+ 
 }
 
  window.onload = function() {
+   if (navigator.requestMIDIAccess)  {
      navigator.requestMIDIAccess()
      .then( onMIDISuccess, onMIDIFailure );
+   }
+     else  
+     alert("please Use Chromium based browser : Chrome, Brave, Edge ...")
 };
 
 
