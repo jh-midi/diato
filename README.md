@@ -16,7 +16,7 @@ Donc il vous faut installer Chrome, Brave ... ou Chromium
 sudo apt install chromium
 
 Pour avoir un son d'accordéon rapidement installer fluidsynth.
-exemple  pour debian et ubuntu :
+exemple  pour Debian et Ubuntu :\
 sudo apt install fluidsynth
 
 j'utilise ici la soundfont Gaillard.sf2 pour tester.
