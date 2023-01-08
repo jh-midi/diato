@@ -4,7 +4,7 @@ diatonic accordion melodeon emulation on pc keyboard
 ![image du programme ok](/diatok.PNG)
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
 * you can look at portmidi-sml : https://github.com/jh-midi/portmidi-sml \
-for creating virtual port on Mac Linux for use with Daw and scores writers ...
+for creating virtual port on Linux for use with Daw and scores writers ...
 * suggestions are welcome.
 
 Lisez tout vous gagnerez du temps :-)
@@ -72,3 +72,6 @@ on est en tiré, si vous voulez du silence tapez sur la barre espace.
 
 Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
 la touche majuscule droite ne fonctionne pas bien en poussé.
+## Mac
+* Ici tout fonctionne bien, il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels.
+* Pour les soundfonts utilisation de Tracktion Waveform ou fluidSynth conseillée.
