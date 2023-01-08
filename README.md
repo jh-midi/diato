@@ -1,4 +1,5 @@
 # diato
+![Voici ce que vous devez voir si votre navigateur est basé sur Chromium](/diatok.PNG)
 diatonic accordion melodeon emulation on pc keyboard
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
 * you can look at portmidi-sml2 for creating virtual port on Mac Linux for use with Daw and scores writers ...
