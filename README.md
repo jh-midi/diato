@@ -16,15 +16,15 @@ Donc il vous faut installer Chrome, Brave ... ou Chromium
 
 sudo apt install chromium
 
-Pour avoir un son d'accordéon rapidement installer fluidsynth.
+Pour avoir un son d'accordéon rapidement, installer fluidsynth.
 exemple  pour Debian et Ubuntu :\
 sudo apt install fluidsynth
 
-j'utilise ici la soundfont Gaillard.sf2 pour tester.
+J'utilise ici la soundfont Gaillard.sf2 pour tester.
 Vous la trouverez sur sur le site http://jmi.ovh/DiatonicTab .
 Il y en a d'autres ...
 
-une fois fluidsynth installé taper au terminal :
+Une fois fluidsynth installé taper au terminal :
 
 fluidsynth Gaillard.sf2 -m alsa_seq -p diato
 
@@ -64,11 +64,11 @@ ouvrir le fichier index.html avec le navigateur chromium.
 
 choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
 
-le clavier de l'ordinateur devient un clavier d'accordéon diatonique
+Le clavier de l'ordinateur devient un clavier d'accordéon diatonique
 mais pas que : les touches numériques permettent de sélectionner
 votre clavier préféré jusqu'au chromatique c-griff et main gauche stradella.
 la touche majuscule gauche actionne le soufflet en poussé en relachant
 on est en tiré, si vous voulez du silence tapez sur la barre espace.
 
-Ici pas besoin de changer de clavier en qwerty pour ¨^ mais \
+Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
 la touche majuscule droite ne fonctionne pas bien en poussé.
