@@ -52,3 +52,22 @@ Et refaire la même opération pour revenir en azerty.
 
 Sous Windows vous pouvez faire la même chose mais différemment.
 ## Windows
+Impérativement il faut utiliser un port midi virtuel. J'utilise loopMidi.
+Sous windows il y a trop de délais pour jouer en direct avec fluidSynth.
+J'utilise Tracktion Waveform pour ce faire soit avec asio ou windows low latency mode.\
+Le Multi sampler charge les soundfonts impeccablement et vous pouvez les modifier à votre convenance \
+Notez qu'il vous est possible de créer votre propre instrument avec le Micro sampler fournit \
+avec la version free.
+
+ouvrir le fichier index.html avec le navigateur chromium.
+
+choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
+
+le clavier de l'ordinateur devient un clavier d'accordéon diatonique
+mais pas que : les touches numériques permettent de sélectionner
+votre clavier préféré jusqu'au chromatique c-griff et main gauche stradella.
+la touche majuscule gauche actionne le soufflet en poussé en relachant
+on est en tiré, si vous voulez du silence tapez sur la barre espace.
+
+Ici pas besoin de changer de clavier en qwerty pour ¨^ mais \
+la touche majuscule droite ne fonctionne pas bien en poussé.
