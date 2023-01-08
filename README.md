@@ -56,9 +56,8 @@ Sous Windows vous pouvez faire la même chose mais différemment.
 Impérativement il faut utiliser un port midi virtuel. J'utilise loopMidi.
 Sous windows il y a trop de délais pour jouer en direct avec fluidSynth.
 J'utilise Tracktion Waveform pour ce faire soit avec asio ou windows low latency mode.\
-Le Multi sampler charge les soundfonts impeccablement et vous pouvez les modifier à votre convenance \
-Notez qu'il vous est possible de créer votre propre instrument avec le Micro sampler fournit 
-avec la version free.
+Le Multi sampler de Waveform charge les soundfonts impeccablement et vous pouvez les modifier à votre convenance \
+Notez qu'il vous est possible de créer votre propre instrument avec le Micro sampler fournit avec la version free.
 
 ouvrir le fichier index.html avec le navigateur chromium.
 
