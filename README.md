@@ -72,6 +72,8 @@ on est en tiré, si vous voulez du silence tapez sur la barre espace.
 Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
 la touche majuscule droite ne fonctionne pas bien en poussé.
 ## Mac
-* Ici tout fonctionne bien, il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels ou utiliser portmidi.
+* Ici tout fonctionne bien, (sauf la touche F5 qu'il faut remplacer par cmd+r :) mdr
+* il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels ou utiliser portmidi.
 * Pour les soundfonts utilisation de Tracktion Waveform ou fluidSynth conseillée.
-
+* F5 ne fonctionne pas pour rafraîchir sour Mac il faut utiliser (cmd+r) :\
+c'est à dire maintenir appuyée la touche cmd et ensuite enfoncer la touche r pour avoir le clavier Heim1.
