@@ -1,6 +1,6 @@
 # diato
 diatonic or chromatic accordion melodeon emulation on pc keyboard
-*  (anti-ghosting keyboard is mandatory for polyphonic playing)
+*  (anti-ghosting keyboard is mandatory for a full polyphonic playing)
 ![image du programme ok](/diatok.PNG)
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
 * you can look at portmidi-sml : https://github.com/jh-midi/portmidi-sml \
