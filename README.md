@@ -73,7 +73,7 @@ on est en tiré, si vous voulez du silence tapez sur la barre espace.
 * Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
 la touche majuscule droite ne fonctionne pas bien en poussé.
 
-* J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \ 
+* J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
 exemple téléchargeable ici : le clavier Main Droite du Gaillard "1_Gaillard MD.xrni"
 * site français Renoise   http://www.refra.fr/portail/bienvenue  
 
