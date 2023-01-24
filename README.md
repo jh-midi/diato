@@ -59,30 +59,31 @@ Sous Windows vous pouvez faire la même chose mais différemment.
 ## Windows
 Impérativement il faut utiliser un port midi virtuel. J'utilise loopMidi.
 Sous windows il y a trop de délais pour jouer en direct avec fluidSynth.
-J'utilise Tracktion Waveform pour ce faire soit avec asio ou windows low latency mode.\
-Le Multi sampler de Waveform charge les soundfonts impeccablement et vous pouvez les modifier à votre convenance \
-Notez qu'il vous est possible de créer votre propre instrument avec le Micro sampler fournit avec la version free.
 
-Par ailleurs j'ai converti le clavier Main Droite du Gaillard en instrument Renoise.
-(site français Renoise    http://www.refra.fr/portail/bienvenue  )
+* ouvrir le fichier index.html avec le navigateur chromium.
 
-La main droite du Gaillard a été convertie avec sf2xrni que j'ai compilé.
-Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
-soundfont2 en instrument Renoise modifiable. 
+* choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
 
-ouvrir le fichier index.html avec le navigateur chromium.
-
-choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
-
-Le clavier de l'ordinateur devient un clavier d'accordéon diatonique
+* Le clavier de l'ordinateur devient un clavier d'accordéon diatonique
 mais pas que : les touches numériques permettent de sélectionner
 votre clavier préféré jusqu'au chromatique c-griff et main gauche stradella.
 la touche majuscule gauche actionne le soufflet en poussé en relachant
 on est en tiré, si vous voulez du silence tapez sur la barre espace.
 
-Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
+* Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
 la touche majuscule droite ne fonctionne pas bien en poussé.
+
+* J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \ 
+exemple téléchargeable ici : le clavier Main Droite du Gaillard "1_Gaillard MD.xrni"
+* site français Renoise   http://www.refra.fr/portail/bienvenue  
+
+* Cette main droite du Gaillard a été convertie avec sf2xrni que j'ai compilé.
+Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
+soundfont2 en instrument Renoise modifiable. 
+
+
 ## Mac
+
 * Ici tout fonctionne bien, (sauf la touche F5 qu'il faut remplacer par cmd+r :) mdr
 * il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels ou utiliser portmidi.
 * Pour les soundfonts utilisation de Tracktion Waveform ou fluidSynth conseillée.
