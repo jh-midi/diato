@@ -6,7 +6,9 @@ This program work well on Linux , Windows and Mac with the help of virtual midi 
 * you can look at portmidi-sml : https://github.com/jh-midi/portmidi-sml \
 for creating virtual port on Linux for use with Daw and scores writers ...
 * suggestions are welcome.
-
+I provide 1_Gaillard MD.xrni for use with Renoise 
+J'ai converti le clavier Main Droite du Gaillard en instrument Renoise.
+Il y a un site en Français sur Renoise http://www.refra.fr/portail/bienvenue
 Lisez tout vous gagnerez du temps :-)
 ## Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
@@ -58,6 +60,13 @@ Sous windows il y a trop de délais pour jouer en direct avec fluidSynth.
 J'utilise Tracktion Waveform pour ce faire soit avec asio ou windows low latency mode.\
 Le Multi sampler de Waveform charge les soundfonts impeccablement et vous pouvez les modifier à votre convenance \
 Notez qu'il vous est possible de créer votre propre instrument avec le Micro sampler fournit avec la version free.
+
+Par ailleurs j'ai converti le clavier Main Droite du Gaillard en instrument Renoise.
+(site français Renoise    http://www.refra.fr/portail/bienvenue  )
+
+La main droite du Gaillard a été convertie avec sf2xrni que j'ai compilé.
+Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
+soundfont2 en instrument Renoise modifiable. 
 
 ouvrir le fichier index.html avec le navigateur chromium.
 
