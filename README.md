@@ -7,11 +7,11 @@ This program work well on Linux , Windows and Mac with the help of virtual midi 
 for creating virtual port on Linux for use with Daw and scores writers ...
 * suggestions are welcome.
 * I provide 1_Gaillard MD.xrni for use with Renoise 
-* ( J'ai converti le clavier Main Droite du Gaillard en instrument Renoise.
+* J'ai converti le clavier Main Droite du Gaillard en instrument Renoise.
 L'avantage c'est qu'on peut réaccorder l'instrument et l'affiner.
 Il y a un site en Français sur Renoise http://www.refra.fr/portail/bienvenue
-)
-* Lisez tout vous gagnerez du temps :-)
+
+* Lisez le reste vous gagnerez du temps :-)
 ## Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
 Donc il vous faut installer Chrome, Brave ... ou Chromium
