@@ -79,13 +79,13 @@ exemple téléchargeable ici : le clavier Main Droite du Gaillard "1_Gaillard MD
 
 * Cette main droite du Gaillard a été convertie avec sf2xrni que j'ai compilé.
 Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
-soundfont2 en instrument Renoise modifiable. 
+soundfont2 en instrument Renoise modifiable. Il suffit de décompresser ce zip et ensuite de glisser un fichier.sf2 sur \
+sf2xrni.exe pour obtenir les instruments Renoise qui vont bien.
 
 
 ## Mac
 
 * Ici tout fonctionne bien, (sauf la touche F5 qu'il faut remplacer par cmd+r :) mdr
 * il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels ou utiliser portmidi.
-* Pour les soundfonts utilisation de Tracktion Waveform ou fluidSynth conseillée.
 * F5 ne fonctionne pas pour rafraîchir sour Mac il faut utiliser (cmd+r) :\
 c'est à dire maintenir appuyée la touche cmd et ensuite enfoncer la touche r pour avoir le clavier Heim1.
