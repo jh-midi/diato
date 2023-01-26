@@ -74,7 +74,7 @@ on est en tiré, si vous voulez du silence tapez sur la barre espace.
 la touche majuscule droite ne fonctionne pas bien en poussé.
 
 * J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
-exemple téléchargeable ici : le clavier Main Droite du Gaillard "1_Gaillard MD.xrni"
+exemple téléchargeable ici : le clavier Main Droite du Gaillard "Gaillard MD.xrni"
 * site français Renoise   http://www.refra.fr/portail/bienvenue  
 
 * Cette main droite du Gaillard a été convertie avec sf2xrni que j'ai compilé.
