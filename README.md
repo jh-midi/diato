@@ -6,17 +6,17 @@ This program work well on Linux , Windows and Mac with the help of virtual midi 
 * you can look at portmidi-sml : https://github.com/jh-midi/portmidi-sml \
 for creating virtual port on Linux for use with Daw and scores writers ...
 * suggestions are welcome.
-* I provide 1_Gaillard MD.xrni for use with Renoise 
+* I provide Gaillard MD.xrni for use with Renoise 
 * J'ai converti le clavier Main Droite du Gaillard en instrument Renoise.
-L'avantage c'est qu'on peut réaccorder l'instrument et l'affiner.
+L'avantage c'est qu'on peut réaccorder l'instrument, l'affiner ajouter des effets ...
 Il y a un site en Français sur Renoise http://www.refra.fr/portail/bienvenue
 
 * Lisez le reste vous gagnerez du temps :-)
 ## Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
 Donc il vous faut installer Chrome, Brave ... ou Chromium
-* notez que la version snap de Brave ne fonctionnent pas 
-* il faut une installation complète native
+* notez que la version snap Linux de Brave ne fonctionne pas 
+* il faut une installation native
 
 sudo apt install chromium
 
@@ -34,7 +34,7 @@ fluidsynth Gaillard.sf2 -m alsa_seq -p diato
 
 ouvrir le fichier index.html avec le navigateur chromium.
 
-choisir la sortie midi => diato
+choisir la sortie midi => diato (créée au lancement de fluidsynth)
 
 le clavier de l'ordinateur devient un clavier d'accordéon diatonique
 mais pas que : les touches numériques permettent de sélectionner
@@ -52,7 +52,7 @@ La touche morte  " ^ ne prend pas le relâchement de la touche
 il faut passer en qwerty pour avoir un clavier nickel.
 Pour celà ajouter un clavier qwerty dans la config  paramètres clavier.
 et après pour passer en qwerty :
-maintenir la touche windows (super)  appuyée et actionner la barre espace.
+maintenir la touche super (Windows ou cmd)  appuyée et actionner la barre espace.
 Et refaire la même opération pour revenir en azerty.
 
 Sous Windows vous pouvez faire la même chose mais différemment.
@@ -67,7 +67,7 @@ Sous windows il y a trop de délais pour jouer en direct avec fluidSynth.
 * Le clavier de l'ordinateur devient un clavier d'accordéon diatonique
 mais pas que : les touches numériques permettent de sélectionner
 votre clavier préféré jusqu'au chromatique c-griff et main gauche stradella.
-la touche majuscule gauche actionne le soufflet en poussé en relachant
+la touche majuscule gauche actionne le soufflet en poussé et en relâchant
 on est en tiré, si vous voulez du silence tapez sur la barre espace.
 
 * Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
@@ -81,12 +81,12 @@ exemple téléchargeable ici : le clavier Main Droite du Gaillard "Gaillard MD.x
 * Cette main droite du Gaillard a été convertie avec sf2xrni que j'ai compilé.
 Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
 soundfont2 en instrument Renoise modifiable. Il suffit de décompresser ce zip et ensuite de glisser un fichier.sf2 sur \
-sf2xrni.exe pour obtenir les instruments Renoise qui vont bien.
+sf2xrni.exe pour obtenir les instruments Renoise qui vont bien et les affiner.
 
-
+* pour annuler la répétition des touches : maintenir la touche majuscule droite appuyée plus de 12s (on entend un bip quand c'est bon)
 ## Mac
 
 * Ici tout fonctionne bien, (sauf la touche F5 qu'il faut remplacer par cmd+r :) mdr
-* il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels ou utiliser portmidi.
+* il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels.
 * F5 ne fonctionne pas pour rafraîchir sour Mac il faut utiliser (cmd+r) :\
 c'est à dire maintenir appuyée la touche cmd et ensuite enfoncer la touche r pour avoir le clavier Heim1.
