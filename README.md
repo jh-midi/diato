@@ -6,7 +6,7 @@ This program work well on Linux , Windows and Mac with the help of virtual midi 
 * you can look at portmidi-sml : https://github.com/jh-midi/portmidi-sml \
 for creating virtual port on Linux for use with Daw and scores writers ...
 * suggestions are welcome.
-
+* You can use Gaillard MDpolyphone.xrni with Renoise if you want a real diatonic sound.
 * Lisez le reste vous gagnerez du temps :-)
 ## Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
@@ -71,10 +71,11 @@ la touche majuscule droite ne fonctionne pas bien en poussé.
 
 * J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
  site français Renoise  http://www.refra.fr/portail/bienvenue  
-* Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
-soundfont2 en instrument Renoise modifiable. Il suffit de décompresser ce zip et ensuite de glisser un fichier.sf2 sur \
-sf2xrni.exe pour obtenir les instruments Renoise qui vont bien et les affiner. (Je regarde si je peux améliorer ce programme pour pouvoir
-mettre un instrument qui va bien ici ).
+
+* Gaillard MDpolyphone.xrni est le fichier qui va bien dans Renoise
+
+* J'ai d'abord exporté Gaillard.sf2 en sfz avec polyphone : https://www.polyphone-soundfonts.com \
+ensuite ouvert le sfz dans Renoise, puis paufiné un peu et sauvegardé au format Renoise.
 
 * pour annuler la répétition des touches : maintenir la touche majuscule droite appuyée plus de 12s (on entend un bip quand c'est bon)
 ## Mac
