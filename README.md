@@ -73,7 +73,8 @@ la touche majuscule droite ne fonctionne pas bien en poussé.
  site français Renoise  http://www.refra.fr/portail/bienvenue  
 * Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
 soundfont2 en instrument Renoise modifiable. Il suffit de décompresser ce zip et ensuite de glisser un fichier.sf2 sur \
-sf2xrni.exe pour obtenir les instruments Renoise qui vont bien et les affiner. (Je regarde si je peux améliorer ce programme).
+sf2xrni.exe pour obtenir les instruments Renoise qui vont bien et les affiner. (Je regarde si je peux améliorer ce programme pour pouvoir
+mettre un instrument qui va bien ici ).
 
 * pour annuler la répétition des touches : maintenir la touche majuscule droite appuyée plus de 12s (on entend un bip quand c'est bon)
 ## Mac
