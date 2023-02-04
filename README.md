@@ -6,10 +6,6 @@ This program work well on Linux , Windows and Mac with the help of virtual midi 
 * you can look at portmidi-sml : https://github.com/jh-midi/portmidi-sml \
 for creating virtual port on Linux for use with Daw and scores writers ...
 * suggestions are welcome.
-* I provide Gaillard MD.xrni for use with Renoise 
-* J'ai converti le clavier Main Droite du Gaillard en instrument Renoise.
-L'avantage c'est qu'on peut réaccorder l'instrument, l'affiner ajouter des effets ...
-Il y a un site en Français sur Renoise http://www.refra.fr/portail/bienvenue
 
 * Lisez le reste vous gagnerez du temps :-)
 ## Linux
@@ -75,10 +71,9 @@ la touche majuscule droite ne fonctionne pas bien en poussé.
 
 * J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
  site français Renoise  http://www.refra.fr/portail/bienvenue  
-
 * Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
 soundfont2 en instrument Renoise modifiable. Il suffit de décompresser ce zip et ensuite de glisser un fichier.sf2 sur \
-sf2xrni.exe pour obtenir les instruments Renoise qui vont bien et les affiner.
+sf2xrni.exe pour obtenir les instruments Renoise qui vont bien et les affiner. (Je regarde si je peux améliorer ce programme).
 
 * pour annuler la répétition des touches : maintenir la touche majuscule droite appuyée plus de 12s (on entend un bip quand c'est bon)
 ## Mac
