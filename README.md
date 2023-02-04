@@ -74,12 +74,9 @@ on est en tiré, si vous voulez du silence tapez sur la barre espace.
 la touche majuscule droite ne fonctionne pas bien en poussé.
 
 * J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
-exemple téléchargeable ici : le clavier Main Droite du Gaillard "Gaillard MD.xrni" 
-* appuyer sur la touche flèche vers le haut pour entendre le son original de cet accordéon.
-* site français Renoise   http://www.refra.fr/portail/bienvenue  
+ site français Renoise  http://www.refra.fr/portail/bienvenue  
 
-* Cette main droite du Gaillard a été convertie avec sf2xrni que j'ai compilé.
-Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
+* Voir dans sf2xrni.zip qui est la copie de https://github.com/atsushieno/sf2xrni mais avec l'exe pour convertir tout
 soundfont2 en instrument Renoise modifiable. Il suffit de décompresser ce zip et ensuite de glisser un fichier.sf2 sur \
 sf2xrni.exe pour obtenir les instruments Renoise qui vont bien et les affiner.
 
