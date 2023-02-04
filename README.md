@@ -54,7 +54,8 @@ Et refaire la même opération pour revenir en azerty.
 Sous Windows vous pouvez faire la même chose mais différemment.
 ## Windows
 Impérativement il faut utiliser un port midi virtuel. J'utilise loopMidi.
-Sous windows il y a trop de délais pour jouer en direct avec fluidSynth.
+Sous Windows il y a trop de délais pour jouer en direct avec fluidSynth et museScore n'est pas plus rapide.
+La solution efficace c'est d'utiliser un sampler qui sort sur Asio. J'ai choisi ici Renoise qui est gratuit et performant.
 
 * ouvrir le fichier index.html avec le navigateur chromium.
 
