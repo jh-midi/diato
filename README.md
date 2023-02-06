@@ -73,7 +73,7 @@ la touche majuscule droite ne fonctionne pas bien en poussé.
 * J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
  site français Renoise  http://www.refra.fr/portail/bienvenue  
 
-* Gaillard MDpolyphone.xrni est le fichier qui va bien dans Renoise
+* Gaillard MDpolyphone.xrni est le fichier qui va bien dans Renoise (en attente car ne fonctionne que sur la machine qui convertit)
 
 * J'ai d'abord exporté Gaillard.sf2 en sfz avec polyphone : https://www.polyphone-soundfonts.com \
 ensuite ouvert le sfz dans Renoise, puis paufiné un peu et sauvegardé au format Renoise.
