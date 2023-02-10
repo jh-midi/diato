@@ -99,6 +99,7 @@ const row3PushGail = [ "Eb1",  "G#1", "A1", "Eb2", "G#2",  "A2", "Eb3",  "G#3", 
 const row3DrawGail = [ "G#1", "Bb1", "C#2", "G2", "G#2",  "Bb2",  "Db3",  "G3",  "Ab3", "Bb3", "Db4","G4"];
 
 
+
 /** milleret pignol ** */
 const row1PushMil=  ["G0","C#1", "D1", "G1", "B1", "D2", "G2", "B2", "D3", "G3", "B3", "D4"];
 const row1DrawMil= ["C1","F1", "F#1", "A1", "C2",  "E2", "F#2", "A2", "C3",  "E3",  "F#3", "A3"];
@@ -106,8 +107,10 @@ const row1DrawMil= ["C1","F1", "F#1", "A1", "C2",  "E2", "F#2", "A2", "C3",  "E3
 const row2PushMil= ["E1", "Bb1", "A1", "C2", "E2", "A2", "C3", "E3", "A3", "C4", "E4", "G4"];
 const row2DrawMil = ["G1","G#1", "B1", "D2", "F2", "G#2", "B2", "D3", "F3", "G#3", "B3", "D4"];
 
-const row3PushMil = [ "F1",  "G#1", "Eb2", "F2", "F#2",  "Eb2", "F3",  "F#3",  "Eb3", "F4", "F#4","Eb4"];
-const row3DrawMil = [ "Bb1", "C#2", "Eb2", "G2", "Bb2",  "C#2",  "Eb3",  "G3",  "Bb3", "C#3", "C4","G4"];
+const row3PushMil = [ "F1",  "G#1", "Eb2", "F2", "F#2",  "Eb3", "F3",  "F#3",  "Eb4", "F4", "F#4","Eb5"];
+const row3DrawMil = [ "Bb1", "C#2", "Eb2", "G2", "Bb2",  "C#3",  "Eb3",  "G3",  "Bb3", "C#4", "C4","G4"];
+
+
 
 function fill_mil(transpose,channel) {
     let push=[];
