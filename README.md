@@ -53,9 +53,11 @@ Et refaire la même opération pour revenir en azerty.
 
 Sous Windows vous pouvez faire la même chose mais différemment.
 ## Windows
-Impérativement il faut utiliser un port midi virtuel. J'utilise loopMidi.
+Impérativement il faut utiliser un port midi virtuel. J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
 Sous Windows il y a trop de délais pour jouer en direct avec fluidSynth et museScore n'est pas plus rapide.
-La solution efficace c'est d'utiliser un sampler qui sort sur Asio. J'ai choisi ici Renoise qui est gratuit et performant.
+La solution efficace c'est d'utiliser un sampler qui sort sur Asio. 
+Komplete start qui est gratuit peut très bien faire l'affaire pour toutes sortes de sons.
+https://www.native-instruments.com/fr/products/komplete/bundles/komplete-start/get-komplete-start/
 
 * ouvrir le fichier index.html avec le navigateur chromium.
 
@@ -69,8 +71,9 @@ on est en tiré, si vous voulez du silence tapez sur la barre espace.
 
 * Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
 la touche majuscule droite ne fonctionne pas bien en poussé.
-
-* J'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
+ 
+ - ci dessous, j'ai choisi Renoise qui est gratuit performant et multi plateforme.
+* Pour avoir des sons réalistes de diato j'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
  site français Renoise  http://www.refra.fr/portail/bienvenue  
 
 * Gaillard MDpolyphone.xrni est le fichier qui va bien dans Renoise.
