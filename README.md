@@ -53,9 +53,12 @@ Et refaire la même opération pour revenir en azerty.
 
 Sous Windows vous pouvez faire la même chose mais différemment.
 ## Windows
-Impérativement il faut utiliser un port midi virtuel. J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
-Sous Windows il y a trop de délais pour jouer en direct avec fluidSynth et museScore n'est pas plus rapide.
+Impérativement il faut utiliser un port midi virtuel. 
+
+J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
+
 La solution efficace c'est d'utiliser un sampler qui sort sur Asio. 
+
 Komplete start qui est gratuit peut très bien faire l'affaire pour toutes sortes de sons.
 https://www.native-instruments.com/fr/products/komplete/bundles/komplete-start/get-komplete-start/
 
