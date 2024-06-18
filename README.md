@@ -57,8 +57,8 @@ Impérativement il faut utiliser un port midi virtuel.
 
 J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
 
-Vous pouvez utiliser waveform free : \
-https://www.tracktion.com/products/waveform-free comme séquenceur \ 
+Vous pouvez utiliser waveform free : 
+https://www.tracktion.com/products/waveform-free comme séquenceur 
 avec le plugin TX16Wx Software Sampler https://www.tx16wx.com/ qui peut jouer les fichiers sf2 téléchargés de http://jmi.ovh/DiatonicTab 
 
 * télécharger le zip https://github.com/jh-midi/diato/archive/refs/heads/main.zip et le décompresser dans le répertoire de votre choix.
