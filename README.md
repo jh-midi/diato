@@ -59,8 +59,9 @@ J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
 
 La solution efficace c'est d'utiliser un sampler qui sort sur Asio. 
 
-Komplete start qui est gratuit peut très bien faire l'affaire pour toutes sortes de sons.
-https://www.native-instruments.com/fr/products/komplete/bundles/komplete-start/get-komplete-start/
+TX16Wx Software Sampler est un plugin qui charge les fichiers sf2 téléchargés de http://jmi.ovh/DiatonicTab directement.
+
+https://www.tx16wx.com/
 
 * ouvrir le fichier index.html avec le navigateur chromium.
 
