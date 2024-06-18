@@ -63,10 +63,12 @@ avec le plugin TX16Wx Software Sampler https://www.tx16wx.com/ qui peut jouer le
 
 * télécharger le zip https://github.com/jh-midi/diato/archive/refs/heads/main.zip et le décompresser dans le répertoire de votre choix.
   
-* ouvrir le fichier index.html avec le navigateur chromium.
+* ouvrir le fichier index.html avec le navigateur chromium, chrome ...
 
 * choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
 
+* lancer le séquenceur avec LoopMidi Port en entrée midi et charger le plugin TX16Wx
+  
 * Le clavier de l'ordinateur devient un clavier d'accordéon diatonique
 mais pas que : les touches numériques permettent de sélectionner
 votre clavier préféré jusqu'au chromatique c-griff et main gauche stradella.
