@@ -57,12 +57,12 @@ Impérativement il faut utiliser un port midi virtuel.
 
 J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
 
-La solution efficace c'est d'utiliser un sampler qui sort sur Asio. 
+Vous pouvez utiliser waveform free : \
+https://www.tracktion.com/products/waveform-free comme séquenceur \ 
+avec le plugin TX16Wx Software Sampler https://www.tx16wx.com/ qui peut jouer les fichiers sf2 téléchargés de http://jmi.ovh/DiatonicTab 
 
-TX16Wx Software Sampler est un plugin qui charge les fichiers sf2 téléchargés de http://jmi.ovh/DiatonicTab directement.
-
-https://www.tx16wx.com/
-
+* télécharger le zip sur github et le décompresser dans le répertoire de votre choix.
+  
 * ouvrir le fichier index.html avec le navigateur chromium.
 
 * choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
@@ -76,15 +76,6 @@ on est en tiré, si vous voulez du silence tapez sur la barre espace.
 * Ici pas besoin de changer de clavier en qwerty pour la touche morte ¨^ mais \
 la touche majuscule droite ne fonctionne pas bien en poussé.
  
- - ci dessous, j'ai choisi Renoise qui est gratuit performant et multi plateforme.
-* Pour avoir des sons réalistes de diato j'utilise les soundfonts avec Renoise après les avoir converties en instrument Renoise \
- site français Renoise  http://www.refra.fr/portail/bienvenue  
-
-* Gaillard MDpolyphone.xrni est le fichier qui va bien dans Renoise.
-
-* J'ai d'abord exporté Gaillard.sf2 en sfz avec polyphone : https://www.polyphone-soundfonts.com \
-ensuite ouvert le sfz dans Renoise, puis paufiné un peu et sauvegardé au format Renoise.
-
 * pour annuler la répétition des touches : maintenir la touche majuscule droite appuyée plus de 12s (on entend un bip quand c'est bon)
 ## Mac
 
