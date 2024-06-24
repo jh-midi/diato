@@ -4,6 +4,7 @@ diatonic or chromatic accordion melodeon emulation on pc keyboard
 ![image du programme ok](/diatok.PNG)
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
 * translate and read the text below :-)
+* Il serait bien de lire tout ce qui est écrit plus bas, particulièrement le chapitre Windows qui détaille la procédure d'installation du programme.
 ## Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
 Donc il vous faut installer Chrome, Brave ... ou Chromium
@@ -64,7 +65,7 @@ mais vous pouvez aussi utiliser un son de basse, de batterie comme ça vous chan
 
 * choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
 
-* lancer le séquenceur avec LoopMidi Port en entrée midi et charger le plugin TX16Wx
+* lancer le séquenceur avec LoopMidi Port en entrée midi et charger le plugin TX16Wx si vous voulez utiliser les soundfonts dans votre séquenceur mais vous pouvez utiliser n'importe quel autre instrument bien sûr.
   
 * Le clavier de l'ordinateur devient un clavier d'accordéon diatonique
 mais pas que : les touches numériques permettent de sélectionner
