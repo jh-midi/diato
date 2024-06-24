@@ -1,6 +1,8 @@
 # diato
-diatonic or chromatic accordion melodeon emulation on pc keyboard
+* diatonic or chromatic accordion melodeon emulation on pc keyboard
+( accordéon diatonique ou chromatique midi à partir d'un clavier d'ordinateur )
 *  (anti-ghosting keyboard is mandatory for a full polyphonic playing)
+ (un clavier gamer est indispensable pour une polyphonie totale, mais ça marche bien pour les simples mélodies autrement)
 ![image du programme ok](/diatok.PNG)
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
 * translate and read the text below :-)
