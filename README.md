@@ -3,11 +3,7 @@ diatonic or chromatic accordion melodeon emulation on pc keyboard
 *  (anti-ghosting keyboard is mandatory for a full polyphonic playing)
 ![image du programme ok](/diatok.PNG)
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
-* you can look at portmidi-sml : https://github.com/jh-midi/portmidi-sml \
-for creating virtual port on Linux for use with Daw and scores writers ...
-* suggestions are welcome.
-* You can use Gaillard MDpolyphone.xrni with Renoise if you want a real diatonic sound.
-* Lisez le reste vous gagnerez du temps :-)
+* translate and read the text below :-)
 ## Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
 Donc il vous faut installer Chrome, Brave ... ou Chromium
