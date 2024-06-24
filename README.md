@@ -1,7 +1,7 @@
 # diato
 diatonic or chromatic accordion melodeon emulation on pc keyboard
 *  (anti-ghosting keyboard is mandatory for a full polyphonic playing)
-![image du programme ok](/diatok.PNG)
+![image du programme ok](/diato.PNG)
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
 * translate and read the text below :-)
 * Il serait bien de lire tout ce qui est écrit plus bas, particulièrement le chapitre Windows qui détaille la procédure d'installation du programme.
