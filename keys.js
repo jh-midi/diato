@@ -42,34 +42,50 @@ const Stradella = {
             }
 }
  
-// Ctrl-Alt-Suppr
-const MaloMorvan = {
-    row1Push: ["D4", "F#4","G4","B4", "D5","F#5","G5","B5", "D6","F#6","G6","B6"] ,
-    row1Draw: ["C4","E4","F#4","A4",  "C5","E5","F#5","A5", "C6","E6","F#6","A6"] ,
-    row2Push: ["F4", "A4", "C5", "E5", "F5", "A5", "C6", "E6",  "F6", "A6", "C7", "E7"] ,
-    row2Draw: ["F4","G4","B4", "D5",  "F5","G5","B5", "D6",  "F6","G6","B6","D7"] ,
-    row3Push: ["G#4","Bb4","C#5","Eb5", "G#5","Bb5","C#6","Eb6", "G#6","Bb6","C#7","Eb7"], 
-    row3Draw: ["G#4","Bb4","C#5","Eb5", "G#5","Bb5","C#6","Eb6", "G#6","Bb6","C#7","Eb7"], 
-   
-    fill: function (transpose,channel) {
-    let push=[];
-    let draw=[];
-    push[1] =  this.row1Push.map(note_string => note2midi(note_string) + transpose ); 
-    draw[1] =  this.row1Draw.map(note_string => note2midi(note_string)+ transpose ); 
-    push[2] = this.row2Push.map(note_string => note2midi(note_string) + transpose ); 
-    draw[2] = this.row2Draw.map(note_string => note2midi(note_string) + transpose ); 
-    push[3] = this.row3Push.map(note_string => note2midi(note_string) + transpose); 
-    draw[3] = this.row3Draw.map(note_string => note2midi(note_string) + transpose); 
-    for (let rowNumber = 1;rowNumber < 4;rowNumber++) {
-    rows[rowNumber].forEach(function(keyp,i) {
-    PushDrawAll[keyp] = new Key(push[rowNumber][i] ,
-                                draw[rowNumber][i] ,channel);});
-    }
+// init tablature with Maugein GC+Alt
+let Tablature = {
+    row1Push: ["B0", "D1", "G1", "B1", "D2", "G2", "B2", "D3", "G3", "B3", "D4", "G4"],
+    row1Draw: ["E1", "Gb1", "A1", "C2", "E2", "Gb2", "A2", "C3", "E3", "Gb3", "A3", "C4"],
+
+    row2Push: ["E1", "G1", "C2", "E2", "G2", "C3", "E3", "G3", "C4", "E4", "G4", "C5"],
+    row2Draw: ["G1", "B1", "D2", "F2", "A2", "B2", "D3", "F3", "A3", "B3", "D4", "G4"],
+
+    row3Push: ["G#1", "Bb1", "Eb2", "G#2", "Bb2", "Eb3", "G#3", "Bb3", "Eb4", "G#4", "Bb4", "Eb5"],
+    row3Draw: ["Bb1", "C#2", "G2", "G#2", "Bb2", "C#3", "G3", "G#3", "Bb3", "C#4", "G4", "G#4"],
+
+
+    fill: function (transpose, channel) {
+        let push = [];
+        let draw = [];
+        push[1] = this.row1Push.map(note_string => note2midi(note_string) + transpose);
+        draw[1] = this.row1Draw.map(note_string => note2midi(note_string) + transpose);
+        push[2] = this.row2Push.map(note_string => note2midi(note_string) + transpose);
+        draw[2] = this.row2Draw.map(note_string => note2midi(note_string) + transpose);
+        push[3] = this.row3Push.map(note_string => note2midi(note_string) + transpose);
+        draw[3] = this.row3Draw.map(note_string => note2midi(note_string) + transpose);
+        for (let rowNumber = 1; rowNumber < 4; rowNumber++) {
+            rows[rowNumber].forEach(function (keyp, i) {
+                PushDrawAll[keyp] = new Key(push[rowNumber][i],
+                    draw[rowNumber][i], channel);
+            });
+        }
     }
 }
 
+let maugein = Object.create(Tablature);
 
+// Ctrl-Alt-Suppr
+let maloMorvan =  Object.create(Tablature);
+    maloMorvan.row1Push = ["D4", "F#4","G4","B4", "D5","F#5","G5","B5", "D6","F#6","G6","B6"] ;
+    maloMorvan.row1Draw= ["C4","E4","F#4","A4",  "C5","E5","F#5","A5", "C6","E6","F#6","A6"] ;
 
+    maloMorvan.row2Push= ["F4", "A4", "C5", "E5", "F5", "A5", "C6", "E6",  "F6", "A6", "C7", "E7"] ;
+    maloMorvan.row2Draw= ["F4","G4","B4", "D5",  "F5","G5","B5", "D6",  "F6","G6","B6","D7"] ;
+
+    maloMorvan.row3Push= ["G#4","Bb4","C#5","Eb5", "G#5","Bb5","C#6","Eb6", "G#6","Bb6","C#7","Eb7"];
+    maloMorvan.row3Draw= ["G#4","Bb4","C#5","Eb5", "G#5","Bb5","C#6","Eb6", "G#6","Bb6","C#7","Eb7"];
+   
+   
 
 // here a diatonic row for C
 // allowing only 12 notes per row simplify the program
@@ -77,86 +93,37 @@ const pushC = ["C1", "E1", "G1", "C2", "E2", "G2", "C3", "E3", "G3", "C4", "E4",
 const drawC = ["F1", "A1", "B1", "D2", "F2", "A2", "B2", "D3", "F3", "A3", "B3", "D4"]; //Fa La Si Ré
 
 
-const row1PushHeim=  ["B0", "D1", "G1", "B1", "D2", "G2", "B2", "D3", "G3", "B3", "D4", "G4"];
-const row1DrawHeim= ["E1", "Gb1", "A1", "C2",  "E2", "Gb2", "A2", "C3",  "E3",  "Gb3", "A3", "C4"];
+let heim1 = Object.create(Tablature);
+//row1 is standard G
+heim1.row2Push = [ "E1", "A1", "C2", "E2", "A2", "C3", "E3", "A3", "C4", "E4", "A4", "C5"];
+heim1.row2Draw = ["G1", "B1", "D2", "F2", "G2", "B2", "D3", "F3", "G3", "B3", "D4", "F4"];
 
-const row2PushHeim= [ "E1", "A1", "C2", "E2", "A2", "C3", "E3", "A3", "C4", "E4", "A4", "C5"];
-const row2DrawHeim = ["G1", "B1", "D2", "F2", "G2", "B2", "D3", "F3", "G3", "B3", "D4", "F4"];
-
-const row3PushHeim = [ "F1",  "Ab1", "Eb2", "F2",  "Ab2", "Eb3", "F3",  "Ab3", "Eb4", "F4",  "Ab4","Eb5"];
-const row3DrawHeim = [ "Bb1", "Db2", "Eb2", "Ab2", "Bb2", "Db3", "Eb3", "Ab3", "Bb3", "Db4", "Eb4","Ab4"];
-
-
-
-/********* gaillard *****/
-const row1PushGail=  ["G0","B0", "D1", "G1", "B1", "D2", "G2", "B2", "D3", "G3", "B3", "D4"];
-const row1DrawGail= ["C1","E1", "Gb1", "A1", "C2",  "E2", "Gb2", "A2", "C3",  "E3",  "Gb3", "A3"];
-
-const row2PushGail= ["C1", "E1", "G1", "C2", "E2", "G2", "C3", "E3", "G3", "C4", "E4", "G4"];
-const row2DrawGail = ["F1","G1", "B1", "D2", "F2", "A2", "B2", "D3", "F3", "A3", "B3", "D4"];
-
-const row3PushGail = [ "Eb1",  "G#1", "A1", "Eb2", "G#2",  "A2", "Eb3",  "G#3",  "A3", "Eb4", "G#4","A4"];
-const row3DrawGail = [ "G#1", "Bb1", "C#2", "G2", "G#2",  "Bb2",  "Db3",  "G3",  "Ab3", "Bb3", "Db4","G4"];
+heim1.row3Push = [ "F1",  "Ab1", "Eb2", "F2",  "Ab2", "Eb3", "F3",  "Ab3", "Eb4", "F4",  "Ab4","Eb5"];
+heim1.row3Draw = [ "Bb1", "Db2", "Eb2", "Ab2", "Bb2", "Db3", "Eb3", "Ab3", "Bb3", "Db4", "Eb4","Ab4"];
 
 
 
-/** milleret pignol ** */
-const row1PushMil=  ["G0","C#1", "D1", "G1", "B1", "D2", "G2", "B2", "D3", "G3", "B3", "D4"];
-const row1DrawMil= ["C1","F1", "F#1", "A1", "C2",  "E2", "F#2", "A2", "C3",  "E3",  "F#3", "A3"];
+/********* heim *****/
+let heim = Object.create(Tablature);
+//row1 is standard G
+heim.row2Push= ["C1", "E1", "G1", "C2", "E2", "G2", "C3", "E3", "G3", "C4", "E4", "G4"];
+heim.row2Draw = ["F1","G1", "B1", "D2", "F2", "A2", "B2", "D3", "F3", "A3", "B3", "D4"];
 
-const row2PushMil= ["E1", "Bb1", "A1", "C2", "E2", "A2", "C3", "E3", "A3", "C4", "E4", "G4"];
-const row2DrawMil = ["G1","G#1", "B1", "D2", "F2", "G#2", "B2", "D3", "F3", "G#3", "B3", "D4"];
-
-const row3PushMil = [ "F1",  "G#1", "Eb2", "F2", "F#2",  "Eb3", "F3",  "F#3",  "Eb4", "F4", "F#4","Eb5"];
-const row3DrawMil = [ "Bb1", "C#2", "Eb2", "G2", "Bb2",  "C#3",  "Eb3",  "G3",  "Bb3", "C#4", "C4","G4"];
-
+heim.row3Push = [ "Eb1",  "G#1", "A1", "Eb2", "G#2",  "A2", "Eb3",  "G#3",  "A3", "Eb4", "G#4","A4"];
+heim.row3Draw = [ "G#1", "Bb1", "C#2", "G2", "G#2",  "Bb2",  "Db3",  "G3",  "Ab3", "Bb3", "Db4","G4"];
 
 
-function fill_mil(transpose,channel) {
-    let push=[];
-    let draw=[];
-    push[1] = row1PushMil.map(note_string => note2midi(note_string) + transpose ); 
-    draw[1] = row1DrawMil.map(note_string => note2midi(note_string) + transpose );
-    push[2] = row2PushMil.map(note_string => note2midi(note_string) + transpose ); 
-    draw[2] = row2DrawMil.map(note_string => note2midi(note_string) + transpose );
-    push[3] = row3PushMil.map(note_string => note2midi(note_string) + transpose ); 
-    draw[3] = row3DrawMil.map(note_string => note2midi(note_string) + transpose ); 
-    for (let rowNumber = 1;rowNumber < 4;rowNumber++) {
-    rows[rowNumber].forEach(function(keyp,i) {
-	PushDrawAll[keyp] = new Key(push[rowNumber][i],draw[rowNumber][i],channel);});
-    }
-    }
+/** milleret pignol C/F  */
+let milleretPignol = Object.create(Tablature);
+milleretPignol.row1Push=  ["C4", "F#4", "G3", "C4", "E4", "G4", "C5", "E5", "G5", "C6", "E6", "G6"];
+milleretPignol.row1Draw=  ["C4", "Bb3", "B3", "D4", "F4", "A4", "B4", "D5", "F5", "A5", "B5", "D6"];
 
+milleretPignol.row2Push=  ["A3", "Eb5", "D4", "F4", "A4",  "D5",  "F5", "A5", "D6",  "F6",  "A6", "C7" ];
+milleretPignol.row2Draw = ["C4", "C#4", "E4", "G4", "Bb4", "C#5", "E5", "G5", "Bb5", "C#6", "E6", "G#6"];
 
-function fill_heim1(transpose,channel) {
-    let push=[];
-    let draw=[];
-    push[1] = row1PushHeim.map(note_string => note2midi(note_string) + transpose ); 
-    draw[1] = row1DrawHeim.map(note_string => note2midi(note_string) + transpose );
-    push[2] = row2PushHeim.map(note_string => note2midi(note_string) + transpose ); 
-    draw[2] = row2DrawHeim.map(note_string => note2midi(note_string) + transpose );
-    push[3] = row3PushHeim.map(note_string => note2midi(note_string) + transpose ); 
-    draw[3] = row3DrawHeim.map(note_string => note2midi(note_string) + transpose ); 
-    for (let rowNumber = 1;rowNumber < 4;rowNumber++) {
-    rows[rowNumber].forEach(function(keyp,i) {
-	PushDrawAll[keyp] = new Key(push[rowNumber][i],draw[rowNumber][i],channel);});
-    }
-    }
+milleretPignol.row3Push = [  "Bb3", "B3", "G#4", "Bb4", "B4",  "G#5", "Bb5", "B5", "G#6", "Bb6", "B6", "C7"];
+milleretPignol.row3Draw = [  "Eb4", "F#4", "G#4", "C5", "Eb5", "F#5", "G#5", "C6", "Eb6", "F#6", "F6", "C7"];
 
-    function fill_heim_standard(transpose,channel) {
-        let push=[];
-        let draw=[];
-        push[1] = row1PushGail.map(note_string => note2midi(note_string) + transpose ); 
-        draw[1] = row1DrawGail.map(note_string => note2midi(note_string) + transpose );
-        push[2] = row2PushGail.map(note_string => note2midi(note_string) + transpose ); 
-        draw[2] = row2DrawGail.map(note_string => note2midi(note_string) + transpose );
-        push[3] = row3PushGail.map(note_string => note2midi(note_string) + transpose ); 
-        draw[3] = row3DrawGail.map(note_string => note2midi(note_string) + transpose ); 
-        for (let rowNumber = 1;rowNumber < 4;rowNumber++) {
-        rows[rowNumber].forEach(function(keyp,i) {
-        PushDrawAll[keyp] = new Key(push[rowNumber][i],draw[rowNumber][i],channel);});
-        }
-        }
 // bc + c reversal
         function fill_irish_BC_reversal(transpose,channel) {
             let push=[];

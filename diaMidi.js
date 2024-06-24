@@ -174,7 +174,7 @@ function onMIDISuccess( midiAccess ) {
     let mid_out = document.getElementById('select_midi')
     output = getDeviceByName(mid_out.options[0].innerText,outputs);
     console.log("output name " + output.name)
-    fill_heim1(36,0);
+    heim1.fill(36,0);
     css_notes();
     note_off();
 }  
@@ -235,11 +235,11 @@ window.addEventListener("keydown", function(event) {
 	break;
 	case 'Digit3': tune_fn_key(1);document.title="Irish C#D";
 	break;
-	case 'Digit4': tune_fn_key(2);document.title="Irlandais DD#";
+	case 'Digit4': {maugein.fill(TUNE_REF,0), css_notes();document.title="CG-alt Maugein"};//
 	break;
-    case 'Digit5': {fill_heim_standard(TUNE_REF,0), css_notes();document.title="Heim standard"};//Heim normal
+    case 'Digit5': {heim.fill(TUNE_REF,0), css_notes();document.title="Heim standard"};//Heim normal
 	break;
-    case 'Digit6': {fill_mil(TUNE_REF+2,0), css_notes();document.title="Milleret Pignol La/Ré";};//saphir gaillard
+    case 'Digit6': {milleretPignol.fill(TUNE_REF - 36,0), css_notes();document.title="Milleret Pignol Do/Fa";};//saphir gaillard
 	break;
     case 'Digit7': { fill_irish_BC_reversal(TUNE_REF - 1,0), css_notes();document.title="Irish BC 3th row in C reversal"}
     break;
@@ -247,7 +247,7 @@ window.addEventListener("keydown", function(event) {
     break;
     case 'Digit9': {Stradella.fill(9,0), css_notes();document.title="Stradella bass 3 rows"} 
     break;
-    case 'Digit0': {MaloMorvan.fill(0,0), css_notes();document.title="Malo Morvan Ctrl-Alt-Suppr"} 
+    case 'Digit0': {heim1.fill(TUNE_REF + 3,0), css_notes();document.title="Heim1"} 
     break;
 
     case 'ArrowUp': TRANSPOSE= TRANSPOSE + 12; 
