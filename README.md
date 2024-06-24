@@ -60,7 +60,8 @@ J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
 Vous pouvez utiliser waveform free : 
 https://www.tracktion.com/products/waveform-free comme séquenceur 
 avec le plugin TX16Wx Software Sampler https://www.tx16wx.com/ qui peut jouer les fichiers sf2 téléchargés de http://jmi.ovh/DiatonicTab 
-
+mais vous pouvez aussi utiliser un son de basse, de batterie comme ça vous chante.
+* Dans l'ordre :
 * télécharger le zip https://github.com/jh-midi/diato/archive/refs/heads/main.zip et le décompresser dans le répertoire de votre choix.
   
 * ouvrir le fichier index.html avec le navigateur chromium, chrome ...
