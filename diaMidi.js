@@ -247,7 +247,7 @@ window.addEventListener("keydown", function(event) {
     break;
     case 'Digit9': {Stradella.fill(9,0), css_notes();document.title="Stradella bass 3 rows"} 
     break;
-    case 'Digit0': {heim1.fill(TUNE_REF + 3,0), css_notes();document.title="Heim1"} 
+    case 'Digit0': {heim1.fill(TUNE_REF,0), css_notes();document.title="Heim1"} 
     break;
 
     case 'ArrowUp': TRANSPOSE= TRANSPOSE + 12; 
