@@ -1,5 +1,3 @@
-* It seem complicated at first glance, but if you use it then you can see it is not hard to play.
-* Ce programme peut sembler difficile à installer, mais si vous suivez les indications ci-dessous vous devriez vous en sortir et avoir le plaisir de pratiquer l'accordéon partout où vous avez accès à un ordinateur et jouer les sons que vous voulez en gardant votre doigter préféré et la configuration clavier que vous voulez ... et un casque pour s'entraîner c'est bien aussi :blush:
 
 # diato
 * diatonic or chromatic accordion melodeon emulation on pc keyboard
@@ -8,6 +6,9 @@
  (un clavier gamer est indispensable pour une polyphonie totale, mais ça marche bien pour les simples mélodies autrement)
 ![image du programme ok](/diatok.PNG)
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
+* It seem complicated at first glance, but if you use it then you can see it is not hard to play.
+* Ce programme peut sembler difficile à installer, mais si vous suivez les indications ci-dessous vous devriez vous en sortir et avoir le plaisir de pratiquer l'accordéon partout où vous avez accès à un ordinateur et jouer les sons que vous voulez en gardant votre doigter préféré et la configuration clavier que vous voulez ... et un casque pour s'entraîner c'est bien aussi :blush:
+
 * translate and read the text below :-)
 * Il serait bien de lire tout ce qui est écrit plus bas, particulièrement le chapitre Windows qui détaille la procédure d'installation du programme.
 ## Linux
