@@ -1,5 +1,5 @@
 * It seem complicated at first glance, but if you use it then you can see it is not hard to play.
-* Ce programme peut sembler difficile à utiliser, mais si vous suivez les indications ci-dessous vous devriez vous en sortir et avoir le plaisir de pratiquer l'accordéon partout où vous avez accès à un ordinateur et jouer les sons que vous voulez en gardant votre doigter préféré et la configuration clavier que vous voulez ...
+* Ce programme peut sembler difficile à installer, mais si vous suivez les indications ci-dessous vous devriez vous en sortir et avoir le plaisir de pratiquer l'accordéon partout où vous avez accès à un ordinateur et jouer les sons que vous voulez en gardant votre doigter préféré et la configuration clavier que vous voulez ... et un casque pour s'entraîner c'est bien aussi :-)
 
 # diato
 * diatonic or chromatic accordion melodeon emulation on pc keyboard
