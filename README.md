@@ -34,6 +34,8 @@ fluidsynth Gaillard.sf2 -m alsa_seq -p diato
 ouvrir le fichier index.html avec le navigateur chromium.
 
 choisir la sortie midi => diato (créée au lancement de fluidsynth)
+>[!IMPORTANT]
+>Le clavier d’accordéon ne fonctionne que quand la fenêtre Chrome est sélectionnée.
 
 le clavier de l'ordinateur devient un clavier d'accordéon diatonique
 mais pas que : les touches numériques permettent de sélectionner
@@ -72,6 +74,9 @@ mais vous pouvez aussi utiliser un son de basse, de batterie comme ça vous chan
 * choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
 
 * lancer le séquenceur avec LoopMidi Port en entrée midi et charger le plugin TX16Wx si vous voulez utiliser les soundfonts dans votre séquenceur mais vous pouvez utiliser n'importe quel autre instrument bien sûr.
+
+>[!IMPORTANT]
+>Le clavier d’accordéon ne fonctionne que quand la fenêtre Chrome est sélectionnée.
   
 * Le clavier de l'ordinateur devient un clavier d'accordéon diatonique
 mais pas que : les touches numériques permettent de sélectionner
