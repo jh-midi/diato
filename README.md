@@ -90,10 +90,8 @@ la touche majuscule droite ne fonctionne pas bien en poussé.
 * pour annuler la répétition des touches : maintenir la touche majuscule droite appuyée plus de 12s (on entend un bip quand c'est bon)
 ## Mac
 
-* Ici tout fonctionne bien, (sauf la touche F5 qu'il faut remplacer par cmd+r :) mdr
 * il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels (voir plus bas comment faire).
-* F5 ne fonctionne pas pour rafraîchir sour Mac il faut utiliser (cmd+r) :\
-c'est à dire maintenir appuyée la touche cmd et ensuite enfoncer la touche r pour avoir le clavier Heim1.
+* F5 ne fonctionne pas pour rafraîchir le navigateur Chrome sour Mac il faut utiliser (cmd+r)  pour avoir le clavier Heim1 ou taper 0 .
 * pour changer la répétition des touches > https://support.apple.com/fr-fr/guide/mac-help/mchl0311bdb4/mac
 
 ### Exemple de configuration avec Garage Band  
