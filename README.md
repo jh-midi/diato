@@ -3,11 +3,11 @@
 * diatonic or chromatic accordion melodeon emulation on pc keyboard
 ( accordéon diatonique ou chromatique midi à partir d'un clavier d'ordinateur )
 *  (anti-ghosting keyboard is mandatory for a full polyphonic playing)
- (un clavier gamer est indispensable pour une polyphonie totale, mais ça marche bien pour les simples mélodies autrement)
+* un clavier gamer est indispensable pour une polyphonie totale, mais un clavier ordinaire fonctionne très bien pour la plupart des cas.
 ![image du programme ok](/diatok.PNG)
 This program work well on Linux , Windows and Mac with the help of virtual midi device.
-* It seem complicated at first glance, but if you use it then you can see it is not hard to install and play with it.
-* Ce programme peut sembler difficile à installer, mais si vous suivez les indications ci-dessous vous devriez vous en sortir et avoir le plaisir de pratiquer l'accordéon partout où vous avez accès à un ordinateur et jouer les sons que vous voulez en gardant votre doigter préféré et la configuration clavier que vous voulez ... et un casque pour s'entraîner c'est bien aussi :blush:
+* It seem complicated at first glance (you have to read the doc :persevere:) but if you use it then you can see it is not hard to install and play with it.
+* Ce programme peut sembler difficile à installer, mais si vous suivez les indications :persevere: ci-dessous vous devriez vous en sortir et avoir le plaisir de pratiquer l'accordéon partout où vous avez accès à un ordinateur et jouer les sons que vous voulez en gardant votre doigter préféré et la configuration clavier que vous voulez ... et un casque pour s'entraîner c'est bien aussi :blush:
 * Il est bien de se souvenir que tout voyage commence par un premier pas :turtle:
 * translate and read the text below :-)
 * Il serait bien de lire tout ce qui est écrit plus bas, chaque chapitre pouvant éclairer un autre, même s'il n'est pas écrit pour votre système d'exploitation.
