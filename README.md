@@ -89,8 +89,9 @@ la touche majuscule droite ne fonctionne pas bien en poussé.
 * il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels (voir plus bas comment faire).
 * F5 ne fonctionne pas pour rafraîchir sour Mac il faut utiliser (cmd+r) :\
 c'est à dire maintenir appuyée la touche cmd et ensuite enfoncer la touche r pour avoir le clavier Heim1.
-* lire le [manuel Mac](/Mac.txt) pour plus d'explications pour utiliser un port midi IAC avec Garage Band.
 * pour changer la répétition des touches > https://support.apple.com/fr-fr/guide/mac-help/mchl0311bdb4/mac
+
+### Exemple de configuration avec Garage Band  
 ```
 1. Créer un port midi virtuel.
 Aller dans Applications/Utilitaires et lancer Configuration Audio et MIDI.
