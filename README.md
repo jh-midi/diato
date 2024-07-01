@@ -93,7 +93,7 @@ c'est à dire maintenir appuyée la touche cmd et ensuite enfoncer la touche r p
 
 ### Exemple de configuration avec Garage Band  
 ```
-1. Créer un port midi virtuel.
+1. *Créer un port midi virtuel.*
 Aller dans Applications/Utilitaires et lancer Configuration Audio et MIDI.
 Aller dans le menu fenêtre>config Audio et MIDI>Afficher le Studio MIDI.
 Double cliquer sur l’icône du Gestionnaire IAC
@@ -103,7 +103,7 @@ Double-cliquer sur ce nom pour le remplacer  par : Diato 1.
 Valider le tout en cliquant sur Appliquer, puis  fermer le Studio Midi.
 ```
 ```
-2. Télécharger et installer le programme diato
+2. *Télécharger et installer le programme diato*
 ```
 [Cliquer ici pour télécharger le programme](https://github.com/jh-midi/diato/archive/refs/heads/main.zip)
 ```
@@ -111,14 +111,14 @@ Ensuite double-cliquer sur le <diato-main.zip> téléchargé pour le décompress
 Cela crée un nouveau dossier Diato-main ; le glisser sur le Bureau.
 ```
 ```
-3. Lancer Garage Band : (Séquenceur fourni avec le Mac)
+3. *Lancer Garage Band : (Séquenceur fourni avec le Mac)*
 Choisir Projet vide.
 «Instrument logiciel» sélectionné cliquer sur >Créer
 => L’instrument Piano est automatiquement sélectionné
 Choisir le son qui va bien : par exemple Jazz Organ
 ```
 ```
-4. Ouvrir le dossier Diato-main (glissé précédement en 2 sur le bureau)  et sélectionner le fichier index.html
+4. *Ouvrir le dossier Diato-main (glissé précédement en 2 sur le bureau)  et sélectionner le fichier index.html*
 avec le bouton droit de la souris ou ctrl-clic bouton souris.
 Sélectionner <Ouvrir avec> Google Chrome.
 Dans Chrome, choisir la sortie midi => Gestionnaire IAC Diato 1 et cliquer n’importe tout dans la fenêtre Chrome pour sortir de la sélection de la sortie midi et activer le clavier accordéon.
