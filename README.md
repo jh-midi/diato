@@ -124,8 +124,8 @@ Cela crée un nouveau dossier Diato-main ; le glisser sur le Bureau.
 Pour un diato standard GC taper sur le chiffre 4 du clavier alphabétique qui sélectionnera le plan de clavier GC+alt.
 
 Les notes sont en tiré par défaut, pour le poussé il suffit d’appuyer sur la touche majuscule de gauche juste au dessus de la touche CTRL.
-[!IMPORTANT]
-Le clavier d’accordéon ne fonctionne que quand la fenêtre Chrome est sélectionnée.
+>[!IMPORTANT]
+>Le clavier d’accordéon ne fonctionne que quand la fenêtre Chrome est sélectionnée.
 
 Les sons devraient sortir maintenant de Garage Band.
 
