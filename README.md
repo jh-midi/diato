@@ -133,5 +133,4 @@ A la fin, il suffit de sauvegarder le Projet Garage Band avec un nom : Diato par
 
 Ensuite il n’y a plus que les actions 3 (en chargeant le projet sauvé précédement) et 4 à effectuer pour que ça fonctionne.
 
-Aller sur le site Github https://github.com/jh-midi/diato pour avoir d’autres indications.
 
