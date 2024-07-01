@@ -70,7 +70,7 @@ mais vous pouvez aussi utiliser un son de basse, de batterie comme ça vous chan
 * Dans l'ordre :
 * télécharger le zip https://github.com/jh-midi/diato/archive/refs/heads/main.zip et le décompresser dans le répertoire de votre choix.
   
-* ouvrir le fichier index.html avec le navigateur chromium, chrome ...
+* ouvrir le fichier index.html avec le navigateur Microsoft Edge, Chromium, Chrome ...
 
 * choisir la sortie midi loopMidi que vous avez créé => LoopMidi Port
 
