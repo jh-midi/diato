@@ -118,7 +118,8 @@ Choisir Projet vide.
 Choisir le son qui va bien : par exemple Jazz Organ
 ```
 ```
-4. Ouvrir le dossier Diato-main (glissé précédement en 2 sur le bureau)  et sélectionner le fichier index.html avec le bouton droit de la souris ou ctrl-clic bouton souris.
+4. Ouvrir le dossier Diato-main (glissé précédement en 2 sur le bureau)  et sélectionner le fichier index.html
+avec le bouton droit de la souris ou ctrl-clic bouton souris.
 Sélectionner <Ouvrir avec> Google Chrome.
 Dans Chrome, choisir la sortie midi => Gestionnaire IAC Diato 1 et cliquer n’importe tout dans la fenêtre Chrome pour sortir de la sélection de la sortie midi et activer le clavier accordéon.
 ```
