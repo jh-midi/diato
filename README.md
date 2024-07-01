@@ -10,6 +10,7 @@ This program work well on Linux , Windows and Mac with the help of virtual midi 
 * Ce programme peut sembler difficile à installer, mais si vous suivez les indications ci-dessous vous devriez vous en sortir et avoir le plaisir de pratiquer l'accordéon partout où vous avez accès à un ordinateur et jouer les sons que vous voulez en gardant votre doigter préféré et la configuration clavier que vous voulez ... et un casque pour s'entraîner c'est bien aussi :blush:
 * Il est bien de se souvenir que tout voyage commence par un premier pas :turtle:
 * translate and read the text below :-)
+
 :persevere: Il serait bien de lire tout ce qui est écrit plus bas, chaque chapitre pouvant éclairer un autre, même s'il n'est pas écrit pour votre système d'exploitation. 
 ## Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
