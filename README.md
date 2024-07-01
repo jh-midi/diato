@@ -86,7 +86,7 @@ la touche majuscule droite ne fonctionne pas bien en poussé.
 ## Mac
 
 * Ici tout fonctionne bien, (sauf la touche F5 qu'il faut remplacer par cmd+r :) mdr
-* il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels.
+* il suffit de créer un port virtuel avec le gestionnaire IAC et de l'utiliser avec vos programmes habituels (voir plus bas comment faire).
 * F5 ne fonctionne pas pour rafraîchir sour Mac il faut utiliser (cmd+r) :\
 c'est à dire maintenir appuyée la touche cmd et ensuite enfoncer la touche r pour avoir le clavier Heim1.
 * lire le [manuel Mac](/Mac.txt) pour plus d'explications pour utiliser un port midi IAC avec Garage Band.
@@ -102,11 +102,11 @@ Double-cliquer sur ce nom pour le remplacer  par : Diato 1.
 Valider le tout en cliquant sur Appliquer, puis  fermer le Studio Midi.
 ```
 ```
-2. Installer le programme diato
+2. Télécharger et installer le programme diato
 ```
-[Télécharger le programme diato](https://github.com/jh-midi/diato/archive/refs/heads/main.zip)
+[Cliquer ici pour télécharger le programme](https://github.com/jh-midi/diato/archive/refs/heads/main.zip)
 ```
-Double-cliquer sur le <diato-main.zip> téléchargé pour le décompresser.
+Ensuite double-cliquer sur le <diato-main.zip> téléchargé pour le décompresser.
 Cela crée un nouveau dossier Diato-main ; le glisser sur le Bureau.
 ```
 ```
