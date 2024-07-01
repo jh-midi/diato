@@ -2,7 +2,7 @@
 
 1) Créer un port midi virtuel.
 Aller dans Applications/Utilitaires et lancer Configuration Audio et MIDI.
-Aller dans le menu fenêtre> config Audio et MIDI> Afficher le Studio MIDI.
+Aller dans le menu fenêtre>config Audio et MIDI>Afficher le Studio MIDI.
 Double cliquer sur l’icône du Gestionnaire IAC
 Ensuite cliquer sur +    (ajouter et supprimer des ports) 
 Un nom par défaut est donné au port : «Bus 1»
@@ -22,7 +22,7 @@ Choisir le son qui va bien : par exemple Jazz Organ
 
 4) Ouvrir le dossier Diato-main (glissé précédement en 2 sur le bureau)  et sélectionner le fichier index.html avec le bouton droit de la souris ou ctrl-clic bouton souris.
 Sélectionner <Ouvrir avec> Google Chrome.
-Dans Chrome, choisir la sortie midi => Gestionnaire IAC Diato 1 et cliquer n’importe tout dans un espace blanc de la fenêtre Chrome.
+Dans Chrome, choisir la sortie midi => Gestionnaire IAC Diato 1 et cliquer n’importe tout dans la fenêtre Chrome pour sortir de la sélection de la sortie midi et activer le clavier accordéon.
 
 Pour un diato standard GC taper sur le chiffre 4 du clavier alphabétique qui sélectionnera le plan de clavier GC+alt.
 
