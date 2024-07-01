@@ -102,7 +102,11 @@ Double-cliquer sur ce nom pour le remplacer  par : Diato 1.
 Valider le tout en cliquant sur Appliquer, puis  fermer le Studio Midi.
 ```
 ```
-2. ![Télécharger le programme diato](https://github.com/jh-midi/diato/archive/refs/heads/main.zip)
+2. Installer le programme diato
+```
+[Télécharger le programme diato](https://github.com/jh-midi/diato/archive/refs/heads/main.zip)
+```
+```
 Double-cliquer sur le <diato-main.zip> téléchargé pour le décompresser.
 Cela crée un nouveau dossier Diato-main ; le glisser sur le Bureau.
 ```
