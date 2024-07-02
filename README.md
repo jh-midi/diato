@@ -150,7 +150,7 @@ Ensuite il n’y a plus que les actions 3 (en chargeant le projet sauvé précé
 # Waveform Sequencer with the embeded Soundfont player Micro Sampler
 * For this exemple I use http://jmi.ovh/DiatonicTab/SoundFonts/Gaillard.sf2
   
-[!IMPORTANT]
+>[!IMPORTANT]
  Your virtual MIDI port should be activated before this procedure. (IAC|loopMIDI|Jack)
 
 * run Waveform
