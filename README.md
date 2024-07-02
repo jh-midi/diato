@@ -61,16 +61,22 @@ et après pour passer en qwerty :
 maintenir la touche super (Windows ou cmd)  appuyée et actionner la barre espace.
 Et refaire la même opération pour revenir en azerty.
 
-Sous Windows vous pouvez faire la même chose mais différemment.
+Vous pouvez aussi bien sûr utiliser Tracktion Waveform avec Jack Audio MIDI.
+
 ## Windows
 Impérativement il faut utiliser un port midi virtuel. 
 
 J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
 
-Vous pouvez utiliser waveform free : 
-https://www.tracktion.com/products/waveform-free comme séquenceur avec son Micro Sampler
-ou avec le plugin TX16Wx Software Sampler https://www.tx16wx.com/ qui peut jouer les fichiers sf2 téléchargés de http://jmi.ovh/DiatonicTab 
-mais vous pouvez aussi utiliser un son de basse, de batterie comme ça vous chante.
+Vous pouvez utiliser le Séquenceur waveform free comme player de Soundfont : 
+https://www.tracktion.com/products/waveform-free 
+
+** voir le dernier chapitre pour l'utilisation de Waveform **
+
+Si vous voulez utiliser un autre séquenceur, le plugin TX16Wx Software Sampler https://www.tx16wx.com/ peut faire l'affaire.
+
+* De bonnes soundfonts sont téléchargeables sur http://jmi.ovh/DiatonicTab 
+ mais vous pouvez aussi utiliser un son de basse, de batterie comme ça vous chante.
 * Dans l'ordre :
 * télécharger le zip https://github.com/jh-midi/diato/archive/refs/heads/main.zip et le décompresser dans le répertoire de votre choix.
   
