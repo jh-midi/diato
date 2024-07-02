@@ -1,4 +1,8 @@
-
+```
+Ce n'est pas parce que les choses sont difficiles que nous n'osons pas,
+c'est parce que nous n'osons pas qu'elles sont difficiles.
+Sénèque
+```
 # diato
 * diatonic or chromatic accordion melodeon emulation on pc keyboard
 ( accordéon diatonique ou chromatique midi à partir d'un clavier d'ordinateur )
@@ -64,8 +68,8 @@ Impérativement il faut utiliser un port midi virtuel.
 J'utilise loopMidi => https://www.tobias-erichsen.de/software/loopmidi.html
 
 Vous pouvez utiliser waveform free : 
-https://www.tracktion.com/products/waveform-free comme séquenceur 
-avec le plugin TX16Wx Software Sampler https://www.tx16wx.com/ qui peut jouer les fichiers sf2 téléchargés de http://jmi.ovh/DiatonicTab 
+https://www.tracktion.com/products/waveform-free comme séquenceur avec son Micro Sampler
+ou avec le plugin TX16Wx Software Sampler https://www.tx16wx.com/ qui peut jouer les fichiers sf2 téléchargés de http://jmi.ovh/DiatonicTab 
 mais vous pouvez aussi utiliser un son de basse, de batterie comme ça vous chante.
 * Dans l'ordre :
 * télécharger le zip https://github.com/jh-midi/diato/archive/refs/heads/main.zip et le décompresser dans le répertoire de votre choix.
@@ -137,4 +141,27 @@ A la fin, il suffit de sauvegarder le Projet Garage Band avec un nom : Diato par
 
 Ensuite il n’y a plus que les actions 3 (en chargeant le projet sauvé précédement) et 4 à effectuer pour que ça fonctionne.
 
+# Waveform Sequencer with the embeded Soundfont player Micro Sampler
+* For this exemple I use http://jmi.ovh/DiatonicTab/SoundFonts/Gaillard.sf2
+[!IMPORTANT]
+ Your virtual MIDI port should be activated before this procedure. (IAC|loopMIDI|Jack)
+
+* run Waveform
+1. Verify the settings
+* clic Settings
+* select MIDI Devices => check if your virtual MIDI port is Enabled  (IAC | loopMidi | Jack )
+* select Audio Devices => select your prefered audio output port 
+
+2. Create Project
+* At top left click the + symbol => select New Project...
+* Select your Folder Location and give a name for your project "Diato" (keep Template Default)
+* Click Create Project => you are now in front of 8 tracks
+
+3. Load the Micro Sampler plugin  into the Track 1 and load the soundfont
+* Click the + on Track 1 (Add new plugin) => Choose Waveform > Micro Sampler 
+* Click this plugin => Drag and drop the Gaillard.sf2 instrument into the free part of the black window opened => this load Gaillard.sf2 into the Sampler => Choose "0:Gaillard MD" and click ok.
+* At low left corner click the main menu > File > Save Edit as template 
+* => give it a name, "Diato" for example, now this template can be used for your diato playing
+
+4. Activate the Chrome window and play.
 
