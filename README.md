@@ -155,7 +155,7 @@ Ensuite il n’y a plus que les actions 3 (en chargeant le projet sauvé précé
  Your virtual MIDI port should be activated before running the procedures below. (IAC|loopMIDI|Jack)
 
 * run Waveform
-1. Verify the settings
+1. Verify the settings (not mandatory but recommanded)
 * clic Settings
 * select MIDI Devices => check if your virtual MIDI port is Enabled  (IAC | loopMidi | Jack )
 * select Audio Devices => select your prefered audio output port 
