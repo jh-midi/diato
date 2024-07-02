@@ -147,11 +147,12 @@ A la fin, il suffit de sauvegarder le Projet Garage Band avec un nom : Diato par
 
 Ensuite il n’y a plus que les actions 3 (en chargeant le projet sauvé précédement) et 4 à effectuer pour que ça fonctionne.
 
+(j'écrit avec mon franglais ci-dessous car l'interface de Waveform est en anglais)
 # Waveform Sequencer with the embeded Soundfont player Micro Sampler
 * For this exemple I use http://jmi.ovh/DiatonicTab/SoundFonts/Gaillard.sf2
   
 >[!IMPORTANT]
- Your virtual MIDI port should be activated before this procedure. (IAC|loopMIDI|Jack)
+ Your virtual MIDI port should be activated before running the procedures below. (IAC|loopMIDI|Jack)
 
 * run Waveform
 1. Verify the settings
