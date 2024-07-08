@@ -226,7 +226,7 @@ function fill_tuning(name){
         break;
         case "Irish C#D": tune_fn_key(1);document.title="Irish C#D";
         break;
-        case "CG-alt Maugein": {maugein.fill(TUNE_REF,0), css_notes();document.title="CG-alt Maugein"};//
+        case "GC-alt Maugein": {maugein.fill(TUNE_REF,0), css_notes();document.title="GC-alt Maugein"};//
         break;
         case "Heim standard": {heim.fill(TUNE_REF,0), css_notes();document.title="Heim standard"};//Heim normal
         break;
@@ -265,7 +265,7 @@ window.addEventListener("keydown", function(event) {
 	break;
 	case 'Digit3': fill_tuning("Irish C#D");
 	break;
-	case 'Digit4': fill_tuning("CG-alt Maugein");//
+	case 'Digit4': fill_tuning("GC-alt Maugein");//
 	break;
     case 'Digit5': fill_tuning("Heim standard");//Heim normal
 	break;
