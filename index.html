@@ -1,0 +1,22 @@
+<html>
+<head>
+        <meta charset="utf-8"/>   
+        <link rel="stylesheet" type="text/css" href="css/diaMidi.css"> 
+<!-- ajout keys en  -->
+        <script  src="keys.js"> </script>
+    
+<script   src="diaMidi.js"> </script>
+<title>Heim1</title>
+
+</head>
+<body>
+<p>touche majuscule gauche pour "poussé" la sélection des chiffres se fait sur la 4ème rangée</p>
+<div id="keys">(cmd+r)F5-0=heim1,1=irish BC, 2=F#G, 3=C#D, 4=GC-Alt, 5=Heim, 6=Milleret CF, 7=irish BC/Creversal, 8=C-Griff, 9=StradellaMG
+        <p>Tuning : flèche gauche|droite= -|+ demi-ton, Home= standard, flèche haut|bas=octave</br>
+        space=silence. [ESC, AltLeft,Backspace = midi Ctrl (for start,stop sequencer)] </p></div>        
+<div id='midi'>Choisir la sortie midi  => <select id="select_midi" onchange="choixMidiOut(this)"></select></div>
+<div class="row" id="row3"></div>
+<div class="row" id="row2"></div>
+<div class="row" id="row1"></div>
+</body>
+</html>
