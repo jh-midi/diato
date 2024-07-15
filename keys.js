@@ -47,11 +47,11 @@ let Tablature = {
     row1Push: ["B0", "D1", "G1", "B1", "D2", "G2", "B2", "D3", "G3", "B3", "D4", "G4"],
     row1Draw: ["E1", "Gb1", "A1", "C2", "E2", "Gb2", "A2", "C3", "E3", "Gb3", "A3", "C4"],
 
-    row2Push: ["E1", "G1", "C2", "E2", "G2", "C3", "E3", "G3", "C4", "E4", "G4", "C5"],
-    row2Draw: ["G1", "B1", "D2", "F2", "A2", "B2", "D3", "F3", "A3", "B3", "D4", "G4"],
+    row2Push: ["E1", "G1", "C2", "E2", "G2", "C3", "E3", "G3", "C4", "E4", "G4", "N"],
+    row2Draw: ["G1", "B1", "D2", "F2", "A2", "B2", "D3", "F3", "A3", "B3", "D4", "N"],
 
-    row3Push: ["G#1", "Bb1", "Eb2", "G#2", "Bb2", "Eb3", "G#3", "Bb3", "Eb4", "G#4", "Bb4", "Eb5"],
-    row3Draw: ["Bb1", "C#2", "G2", "G#2", "Bb2", "C#3", "G3", "G#3", "Bb3", "C#4", "G4", "G#4"],
+    row3Push: ["G#1", "Bb1", "Eb2", "G#2", "Bb2", "Eb3", "G#3", "Bb3",  "Eb4", "G#4", "N", "N"],
+    row3Draw: ["Bb1", "C#2", "G2", "G#2",  "Bb2", "C#3", "G3", "G#3",  "Bb3", "C#4", "N", "N"],
 
 
     fill: function (transpose, channel) {
@@ -74,6 +74,11 @@ let Tablature = {
 
 let maugein = Object.create(Tablature);
 
+// here I set a 2 1/2 rows and fill by "N" if there is none button (N c'est pour aucun bouton)
+let maugein_swing =  Object.create(Tablature);
+maugein_swing.row3Push = ["N","N","Eb2","Ab2", "A3","Eb3","Ab3","N", "N","N","N","N"];
+maugein_swing.row3Draw = ["N","N","C#2","G2",  "Bb3","C#3","G3", "N","N","N","N","N"];
+
 // Ctrl-Alt-Suppr
 let maloMorvan =  Object.create(Tablature);
     maloMorvan.row1Push = ["D4", "F#4","G4","B4", "D5","F#5","G5","B5", "D6","F#6","G6","B6"] ;
@@ -95,11 +100,11 @@ const drawC = ["F1", "A1", "B1", "D2", "F2", "A2", "B2", "D3", "F3", "A3", "B3",
 
 let heim1 = Object.create(Tablature);
 //row1 is standard G
-heim1.row2Push = [ "E1", "A1", "C2", "E2", "A2", "C3", "E3", "A3", "C4", "E4", "A4", "C5"];
-heim1.row2Draw = ["G1", "B1", "D2", "F2", "G2", "B2", "D3", "F3", "G3", "B3", "D4", "F4"];
+heim1.row2Push = [ "E1", "A1", "C2", "E2", "A2", "C3", "E3", "A3", "C4", "E4", "A4", "N"];
+heim1.row2Draw = ["G1", "B1", "D2", "F2", "G2", "B2", "D3", "F3", "G3", "B3", "D4", "N"];
 
-heim1.row3Push = [ "F1",  "Ab1", "Eb2", "F2",  "Ab2", "Eb3", "F3",  "Ab3", "Eb4", "F4",  "Ab4","Eb5"];
-heim1.row3Draw = [ "Bb1", "Db2", "Eb2", "Ab2", "Bb2", "Db3", "Eb3", "Ab3", "Bb3", "Db4", "Eb4","Ab4"];
+heim1.row3Push = [ "F1",  "Ab1", "Eb2", "F2",  "Ab2", "Eb3", "F3",  "Ab3", "Eb4", "F4",  "N","N"];
+heim1.row3Draw = [ "Bb1", "Db2", "Eb2", "Ab2", "Bb2", "Db3", "Eb3", "Ab3", "Bb3", "Db4", "N","N"];
 
 
 
@@ -115,14 +120,14 @@ heim.row3Draw = [ "G#1", "Bb1", "C#2", "G2", "G#2",  "Bb2",  "Db3",  "G3",  "Ab3
 
 /** milleret pignol C/F  */
 let milleretPignol = Object.create(Tablature);
-milleretPignol.row1Push=  ["C4", "F#4", "G3", "C4", "E4", "G4", "C5", "E5", "G5", "C6", "E6", "G6"];
-milleretPignol.row1Draw=  ["C4", "Bb3", "B3", "D4", "F4", "A4", "B4", "D5", "F5", "A5", "B5", "D6"];
+milleretPignol.row1Push=  ["N", "F#4", "G3", "C4", "E4", "G4", "C5", "E5", "G5", "C6", "E6", "G6"];
+milleretPignol.row1Draw=  ["N", "Bb3", "B3", "D4", "F4", "A4", "B4", "D5", "F5", "A5", "B5", "D6"];
 
 milleretPignol.row2Push=  ["A3", "Eb5", "D4", "F4", "A4",  "D5",  "F5", "A5", "D6",  "F6",  "A6", "C7" ];
 milleretPignol.row2Draw = ["C4", "C#4", "E4", "G4", "Bb4", "C#5", "E5", "G5", "Bb5", "C#6", "E6", "G#6"];
 
-milleretPignol.row3Push = [  "Bb3", "B3", "G#4", "Bb4", "B4",  "G#5", "Bb5", "B5", "G#6", "Bb6", "B6", "C7"];
-milleretPignol.row3Draw = [  "Eb4", "F#4", "G#4", "C5", "Eb5", "F#5", "G#5", "C6", "Eb6", "F#6", "F6", "C7"];
+milleretPignol.row3Push = [  "Bb3", "B3", "G#4", "Bb4", "B4",  "G#5", "Bb5", "B5", "G#6", "Bb6", "B6", "N"];
+milleretPignol.row3Draw = [  "Eb4", "F#4", "G#4", "C5", "Eb5", "F#5", "G#5", "C6", "Eb6", "F#6", "F6", "N"];
 
 // bc + c reversal
         function fill_irish_BC_reversal(transpose,channel) {
@@ -173,7 +178,7 @@ const arrow = ['ArrowLeft', 'ArrowDown', 'ArrowRight', 'ArrowUp', 'PageUp', 'Pag
 
 const functs = ['Escape', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6']; //F7 and upper are useless
 
-
+// NOTA : "N" is for no key
 //                     0     1    2    3     4    5    6     7     8    9    10   11
 const Midi2Note   =  ["C", "C#", "D" ,"Eb", "E" ,"F", "F#", "G", "G#", "A" ,"Bb", "B"];
 
@@ -228,19 +233,27 @@ function fill_push_draw(rowNumber,transpose,shifted,channel) {
 }
 
 //  note2midi("C#4") => 49
+// N is for don't show and don't play
 function note2midi(note_in) {
+    if (note_in == "N") return 100000;
+    else {
     const note = note_in.trim();// en cas d'erreur d'entrée de note
     let taille = note.length;
     let name = note.substring(0,taille - 1);
     let octave = note.substring(taille - 1,taille);
     return NoteMidi[name] + octave * 12;
+    }
 }
 
 // getNote(49) => "C#4"
+// if note outside of MIDI note range then don't show it
 function get_note(midiNumber) {
+    if (midiNumber > 126 || midiNumber < 0  ) return "N";
+    else {
     let rootNote = Midi2Note[midiNumber % 12];
     let octave = Math.floor(midiNumber / 12);
     return rootNote + octave;
+    }
 };
 
 // transpose -1 = B/C, 0=C/C# , 1= C#/D  and so one 

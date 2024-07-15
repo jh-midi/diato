@@ -13,6 +13,7 @@ const RELEASED_COLOR='black';
 
 //object Key = {active: false, push: 96, draw: 89, channel: 0}
 // KeyA : Key {active: false, push: 52, draw: 55, channel: 0}
+// don't catch error
 Key.prototype.play = function() {
     this.active=true;
     if (PUSH) {
@@ -122,7 +123,7 @@ function get_root_note(nomNote) {
 }
 
 // button with push draw attached label
-// dessine le bouton avec semi-bouton id class etc... nécessaire pour le css
+// dessine les boutons avec semi-bouton id class etc... nécessaire pour le css
 function create_button(keyName,pushMidi,drawMidi,row) {
     let pushLabel = get_note(pushMidi);
     let pushRoot= get_root_note(pushLabel);
@@ -232,7 +233,7 @@ function fill_tuning(name){
         break;
         case "Milleret Pignol Do/Fa": {milleretPignol.fill(TUNE_REF - 36,0), css_notes();document.title="Milleret Pignol Do/Fa";};//saphir gaillard
         break;
-        case "Irish BC 3th row in C reversal" : { fill_irish_BC_reversal(TUNE_REF - 1,0), css_notes();document.title="Irish BC 3th row in C reversal"}
+        case "Maugein Swing" : {maugein_swing.fill(TUNE_REF,0), css_notes();document.title="Maugein Swing"};
         break;
         case "C griff chromatique français" : {fill_cgriff(TUNE_REF,0), css_notes();document.title="C griff chromatique français"}
         break;
@@ -271,7 +272,7 @@ window.addEventListener("keydown", function(event) {
 	break;
     case 'Digit6': fill_tuning("Milleret Pignol Do/Fa");//saphir gaillard
 	break;
-    case 'Digit7': fill_tuning("Irish BC 3th row in C reversal");
+    case 'Digit7': fill_tuning("Maugein Swing");
     break;
     case 'Digit8': fill_tuning("C griff chromatique français");
     break;
@@ -280,9 +281,9 @@ window.addEventListener("keydown", function(event) {
     case 'Digit0': fill_tuning("Heim1"); 
     break;
 
-    case 'ArrowUp': TRANSPOSE= TRANSPOSE + 12; 
+    case 'ArrowUp': {TUNE_REF = TUNE_REF + 12; fill_tuning(document.title); };
 	break;
-	case 'ArrowDown': TRANSPOSE= TRANSPOSE - 12;
+	case 'ArrowDown': {TUNE_REF = TUNE_REF - 12; fill_tuning(document.title); };
 	break;
 // allow semi-tone tuning 
     case 'ArrowLeft': { --TUNE_REF ; fill_tuning(document.title); };
