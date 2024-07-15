@@ -6,16 +6,19 @@
    --color-c: red;
    --color-d: rgb(255, 176, 5);
    --color-e: yellow;
-   --color-f: rgb(41, 48, 237);
+   --color-f: rgb(89, 95, 250);
    --color-g: rgb(255, 255, 255);
    --color-a: rgb(0, 128, 73);
    --color-b: rgb(176, 77, 237);
    --color-foreground: #dadada;
-   --color-background: #ffffff;
+   --color-background: #bf8b46;
    --button-space: calc( var(--button-size)  + calc( var(--button-size) / 12));
+   --semi-space: calc( var(--button-size) / 24);
 }
 
-
+body {
+    background-color: var( --color-background);
+}
 
 #keys {
    font-family: Arial, Helvetica, sans-serif;
@@ -23,7 +26,7 @@
    font-size: large; /* ou x-large */
    text-align: center;
    vertical-align: middle;
-   height:  var(--button-size);
+ /*  height:  var(--button-size); */
 
 }
 
@@ -31,18 +34,22 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, var(--button-space));
     grid-template-rows: var(--button-size) var(--button-size);
-    padding-left: var(--half-button-size);
     height:  var(--button-size);
+}
+
+#row1 {
+   
+    padding-left:   var(--half-button-size) ;
 }
 
 #row2 {
    
-    padding-left:  var(--button-size);
+    padding-left:   calc( var(--button-size) + var(--semi-space));
 }
 
 #row3 {
     padding-top:  var(--button-size);
-    padding-left: calc( var(--button-size) +  var(--half-button-size));
+    padding-left: calc( var(--button-size) +  var(--half-button-size) + var(--semi-space) * 2 );
 }
 
 .button {
@@ -61,8 +68,7 @@
 }
 
 .push {
-   
-    background: var(--color-push);
+   background: var(--color-push);
     border-top-left-radius: var(--button-size);
    border-top-right-radius: var(--button-size);
    height: var(--half-button-size);
@@ -142,3 +148,9 @@
 .b {
     background: var(--color-b);
 }
+
+.n {
+    -webkit-mask-image: linear-gradient(transparent, transparent);
+    mask-image: linear-gradient(transparent, transparent);
+}
+
