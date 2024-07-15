@@ -76,8 +76,8 @@ let maugein = Object.create(Tablature);
 
 // here I set a 2 1/2 rows and fill by "N" if there is none button (N c'est pour aucun bouton)
 let maugein_swing =  Object.create(Tablature);
-maugein_swing.row3Push = ["N","N","Eb2","Ab2", "A3","Eb3","Ab3","N", "N","N","N","N"];
-maugein_swing.row3Draw = ["N","N","C#2","G2",  "Bb3","C#3","G3", "N","N","N","N","N"];
+maugein_swing.row3Push = ["N","N","Eb2","Ab2", "A2","Eb3","Ab3","N", "N","N","N","N"];
+maugein_swing.row3Draw = ["N","N","C#2","G2",  "Bb2","C#3","G3", "N","N","N","N","N"];
 
 // Ctrl-Alt-Suppr
 let maloMorvan =  Object.create(Tablature);
