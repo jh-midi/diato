@@ -176,8 +176,7 @@ function onMIDISuccess( midiAccess ) {
     let mid_out = document.getElementById('select_midi')
     output = getDeviceByName(mid_out.options[0].innerText,outputs);
     console.log("output name " + output.name)
-    heim1.fill(36,0);
-    tuning = "heim1";
+    fill_tuning('Heim1');
     css_notes();
     note_off();
 }  
