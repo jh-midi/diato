@@ -1,5 +1,5 @@
 :root {
-   --button-size: 6.5vw; 
+   --button-size: 5.7vw; 
    --half-button-size: calc(var(--button-size) / 2);
    --color-push: #379D1F;
    --color-draw: #ADEE50;
@@ -12,12 +12,19 @@
    --color-b: rgb(176, 77, 237);
    --color-foreground: #dadada;
    --color-background: #bf8b46;
-   --button-space: calc( var(--button-size)  + calc( var(--button-size) / 12));
-   --semi-space: calc( var(--button-size) / 24);
+   --button-space: calc( var(--button-size)  + calc( var(--button-size) / 4));
+   --semi-space: calc( var(--button-size) / 8);
 }
 
 body {
-    background-color: var( --color-background);
+   
+     background-color: var( --color-background);   
+   
+    }
+
+#boutons {
+    background-image: url(walnut22.jpg); 
+    width: fit-content;
 }
 
 #keys {
@@ -26,30 +33,32 @@ body {
    font-size: large; /* ou x-large */
    text-align: center;
    vertical-align: middle;
- /*  height:  var(--button-size); */
-
+   width: calc( var(--button-space) * 12);
+ 
 }
 
 .row {
     display: grid;
-    grid-template-columns: repeat(auto-fill, var(--button-space));
+    grid-template-columns: repeat(12, var(--button-space)) ;
     grid-template-rows: var(--button-size) var(--button-size);
     height:  var(--button-size);
-}
+  }
 
 #row1 {
-   
-    padding-left:   var(--half-button-size) ;
-}
+   padding-left:   var(--half-button-size) ; 
+   padding-bottom: var(--half-button-size); 
+ }
 
 #row2 {
    
     padding-left:   calc( var(--button-size) + var(--semi-space));
-}
+  
+  }
 
 #row3 {
-    padding-top:  var(--button-size);
+    padding-top:  var(--half-button-size); 
     padding-left: calc( var(--button-size) +  var(--half-button-size) + var(--semi-space) * 2 );
+    padding-right: var(--half-button-size); */
 }
 
 .button {
