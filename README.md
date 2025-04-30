@@ -19,10 +19,13 @@ This program work well on Linux , Windows and Mac with the help of virtual midi 
 ## Linux
 Ce programme ne fonctionne qu'avec les navigateurs basés sur Chrome.
 Donc il vous faut installer Chrome, Brave ... ou Chromium
-* notez que la version snap Linux de Brave ne fonctionne pas 
+* notez que la version snap Linux de Brave et Chromium ne fonctionne pas 
 * il faut une installation native
+le mieux c'est de télécharger Chrome sur son site :
 
-sudo apt install chromium
+https://www.google.com/intl/fr_fr/chrome
+
+
 
 Pour avoir un son d'accordéon rapidement, installer fluidsynth.
 exemple  pour Debian et Ubuntu :\
