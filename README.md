@@ -3,7 +3,7 @@ Ce n'est pas parce que les choses sont difficiles que nous n'osons pas,
 c'est parce que nous n'osons pas qu'elles sont difficiles.
 Sénèque
 ```
-look also https://github.com/jh-midi/portmidi-mlton
+if you have an ATOMSQ from Presonus look also to https://github.com/jh-midi/portmidi-mlton
 # diato
 * diatonic or chromatic accordion melodeon emulation on pc keyboard
 ( accordéon diatonique ou chromatique midi à partir d'un clavier d'ordinateur )
